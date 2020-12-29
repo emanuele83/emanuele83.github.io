@@ -1,7 +1,7 @@
 /*
 * Template Name: Sunshine - Responsive vCard Template
 * Author: LMPixels
-* Author URL: http://themeforest.net/user/lmpixels
+* Author URL: https://themeforest.net/user/lmpixels
 * Version: 2.1
 */
 

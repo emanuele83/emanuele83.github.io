@@ -1,12 +1,12 @@
 /**
  * jquery.hoverdir.js v1.1.0
- * http://www.codrops.com
+ * https://www.codrops.com
  *
  * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
+ * https://www.opensource.org/licenses/mit-license.php
  * 
  * Copyright 2012, Codrops
- * http://www.codrops.com
+ * https://www.codrops.com
  */
 ;( function( $, window, undefined ) {
 	
@@ -86,7 +86,7 @@
 			} );
 
 		},
-		// credits : http://stackoverflow.com/a/3647634
+		// credits : https://stackoverflow.com/a/3647634
 		_getDir : function( $el, coordinates ) {
 			
 			// the width and height of the current div

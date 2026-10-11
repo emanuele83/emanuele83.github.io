@@ -1,956 +1,760 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>Emanuele Sabbadini - Personal Site</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Emanuele Sabbadini - About Me, a Software Developer" />
-    <meta name="keywords" content="software developer, process control, engineer, developer, resume, portfolio, software" />
-    <meta name="author" content="lmtheme" />
-    <link rel="shortcut icon" href="favicon.ico">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emanuele Sabbadini | Solutions Architect & Technical Lead — IT/OT Convergence</title>
+  <meta name="description" content="Emanuele Sabbadini - Solutions Architect & Technical Lead with 20+ years of experience bridging modern IT architectures and industrial automation (SCADA, MES, Level 2, Kepware OPC, C#, .NET, Cloud).">
+  <meta name="keywords" content="Emanuele Sabbadini, Solutions Architect, Technical Lead, IT OT Convergence, MES, Delmia Apriso, Kepware OPC, Level 2 Automation, Process Control, C#, .NET, Industrial Software, Udine">
+  <meta name="author" content="Emanuele Sabbadini">
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/transition-animations.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+  <!-- Open Graph / LinkedIn Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://emanuelesabbadini.com/">
+  <meta property="og:title" content="Emanuele Sabbadini | Solutions Architect & Technical Lead">
+  <meta property="og:description" content="20+ years bridging modern enterprise IT architectures and industrial automation (MES, SCADA, Level 2, OPC UA).">
+  <meta property="og:image" content="https://emanuelesabbadini.com/images/my_photo.png">
 
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate icon" type="image/x-icon" href="favicon.ico">
+  
+  <!-- Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
 
-    <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
-  </head>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-  <body>
-    <!-- Loading animation -->
-    <div class="preloader">
-      <div class="preloader-animation">
-        <div class="dot1"></div>
-        <div class="dot2"></div>
+  <!-- Ambient Light Effects & Cyber-Grid -->
+  <div class="bg-ambient-glow" aria-hidden="true"></div>
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="mobile-menu" class="mobile-nav-drawer" aria-hidden="true">
+    <div class="mobile-nav-top">
+      <div class="brand-monogram">
+        <span class="monogram-badge">ES</span>
+        <span class="brand-name">Emanuele Sabbadini</span>
       </div>
+      <button id="mobile-menu-close" class="mobile-nav-close" aria-label="Close Navigation">&times;</button>
     </div>
-    <!-- /Loading animation -->
-
-    <div id="page" class="page">
-      <!-- Header -->
-      <header id="site_header" class="header mobile-menu-hide">
-        <div class="my-photo">
-          <img src="images/my_photo.jpg" alt="image">
-          <div class="mask"></div>
-        </div>
-
-        <div class="site-title-block">
-          <h1 class="site-title">Emanuele Sabbadini</h1>
-          <p class="site-description">Software Developer</p>
-        </div>
-
-        <!-- Navigation & Social buttons -->
-        <div class="site-nav">
-          <!-- Main menu -->
-          <ul id="nav" class="site-main-menu">
-            <!-- About Me Subpage link -->
-            <li>
-              <a class="pt-trigger" href="#home" data-animation="18" data-goto="1">Home</a><!-- href value = data-id without # of .pt-page. Data-goto is the number of section -->
-            </li>
-            <!-- /About Me Subpage link -->
-            <!-- About Me Subpage link -->
-            <!-- <li>
-              <a class="pt-trigger" href="#about_me" data-animation="18" data-goto="2">About me</a>
-            </li> -->
-            <!-- /About Me Subpage link -->
-            <!-- <li>
-              <a class="pt-trigger" href="#resume" data-animation="18" data-goto="3">Resume</a>
-            </li> -->
-			<!--
-            <li>
-              <a class="pt-trigger" href="#portfolio" data-animation="18" data-goto="4">Portfolio</a>
-            </li>
-            <li>
-              <a class="pt-trigger" href="#blog" data-animation="18" data-goto="5">Blog</a>
-            </li>
-			-->
-            <!-- <li>
-              <a class="pt-trigger" href="#contact" data-animation="18" data-goto="6">Contact</a>
-            </li> -->
-          </ul>
-          <!-- /Main menu -->
-
-          <!-- Social buttons -->
-          <ul class="social-links">
-            <!-- Full list of social icons: https://fontawesome.io/icons/#brand -->
-            <!-- <li><a class="tip social-button" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>  -->
-            <!--<li><a class="tip social-button" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>-->
-            <li><a class="tip social-button" href="https://www.linkedin.com/in/emanuele-sabbadini" title="Linked In" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            <!--<li><a class="tip social-button" href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>-->
-            <!--<li><a class="tip social-button" href="#" title="last.fm"><i class="fa fa-lastfm"></i></a></li>-->
-            <!--<li><a class="tip social-button" href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>-->
-          </ul>
-          <!-- /Social buttons -->
-        </div>
-        <!-- Navigation & Social buttons -->
-      </header>
-      <!-- /Header -->
-
-      <!-- Mobile Header -->
-      <div class="mobile-header mobile-visible">
-        <div class="mobile-logo-container">
-          <div class="mobile-site-title">Emanuele Sabbadini</div>
-        </div>
-
-        <a class="menu-toggle mobile-visible">
-          <i class="fa fa-bars"></i>
-        </a>
+    <nav class="mobile-nav-links">
+      <a href="#about" class="mobile-nav-link" id="m-nav-about">About</a>
+      <a href="#convergence" class="mobile-nav-link" id="m-nav-convergence">Architecture</a>
+      <a href="#experience" class="mobile-nav-link" id="m-nav-experience">Experience</a>
+      <a href="#projects" class="mobile-nav-link" id="m-nav-projects">Case Studies</a>
+      <a href="#skills" class="mobile-nav-link" id="m-nav-skills">Skills</a>
+      <a href="#education" class="mobile-nav-link" id="m-nav-education">Education</a>
+      <a href="#contact" class="mobile-nav-link" id="m-nav-contact">Contact</a>
+    </nav>
+    <div style="margin-top: 30px; display: flex; gap: 12px; align-items: center;">
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang-btn="en" aria-label="English">EN</button>
+        <button class="lang-btn" data-lang-btn="it" aria-label="Italiano">IT</button>
       </div>
-      <!-- /Mobile Header -->
+      <a href="Emanuele_Sabbadini_CV.pdf" download="Emanuele_Sabbadini_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn-header-cv" id="m-nav-download-cv">
+        <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        <span id="m-nav-download-cv-text">Download CV</span>
+      </a>
+    </div>
+  </div>
 
-      <!-- Main Content -->
-      <div id="main" class="site-main">
-        <!-- Page changer wrapper -->
-        <div class="pt-wrapper">
-          <!-- Subpages -->
-          <div class="subpages">
+  <div class="main-content-wrap">
 
-            <!-- Home Subpage -->
-            <section class="pt-page pt-page-1 section-with-bg section-paddings-0" style="background-image: url(images/home_page_bg_1.jpg);" data-id="home">
-              <div class="home-page-block-bg">
-                <div class="mask"></div>
-              </div>
-              <div class="home-page-block">
-                <div class="v-align">
-                  <h2>Emanuele Sabbadini</h2>
-                  <div id="rotate" class="text-rotate">
-                    <div>
-                      <p class="home-page-description">Software Developer</p>
-                    </div>
-                    <div>
-                      <p class="home-page-description">Process Control Engineer</p>
-                    </div>
-                  </div>
+    <!-- Header & Navigation -->
+    <header id="site-header" class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand-monogram">
+          <span class="monogram-badge">ES</span>
+          <div>
+            <span class="brand-name">Emanuele Sabbadini</span>
+            <span class="brand-role">Solutions Architect & Technical Lead</span>
+          </div>
+        </a>
 
-                  <div class="block end" style="text-align: center">
-                    <ul class="info-list">
-                      <li><span class="title">Age</span><span class="value">40</span></li>
-                      <li><span class="title">Address</span><span class="value">Udine, Italy</span></li>
-                      <!-- <li><span class="title">e-mail</span><span class="value"><a href="mailto:email@example.com">email@example.com</a></span></li> -->
-                      <!-- <li><span class="title">Phone</span><span class="value">+0123 123 456 789</span></li>
-                      <li><span class="title">Freelance</span><span class="value available">Available</span></li> -->
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- End of Home Subpage -->
+        <!-- Desktop Navigation Links -->
+        <nav class="desktop-nav" aria-label="Main Navigation">
+          <a href="#about" class="desktop-nav-link" id="nav-about">About</a>
+          <a href="#convergence" class="desktop-nav-link" id="nav-convergence">Architecture</a>
+          <a href="#experience" class="desktop-nav-link" id="nav-experience">Experience</a>
+          <a href="#projects" class="desktop-nav-link" id="nav-projects">Case Studies</a>
+          <a href="#skills" class="desktop-nav-link" id="nav-skills">Skills</a>
+          <a href="#education" class="desktop-nav-link" id="nav-education">Education</a>
+          <a href="#contact" class="desktop-nav-link" id="nav-contact">Contact</a>
+        </nav>
 
-            <!-- About Me Subpage -->
-            <section class="pt-page pt-page-2" data-id="about_me">
-              <div class="section-title-block">
-                <h2 class="section-title">About Me</h2>
-                <h5 class="section-description">Artist, Thinker, Creative Doer</h5>
-              </div>
+        <!-- Actions: Language switch + CV download button -->
+        <div class="header-actions">
+          <div class="lang-switcher" role="group" aria-label="Language Selector">
+            <button class="lang-btn active" data-lang-btn="en" aria-label="Switch to English" aria-pressed="true">EN</button>
+            <button class="lang-btn" data-lang-btn="it" aria-label="Passa all'italiano" aria-pressed="false">IT</button>
+          </div>
 
-              <div class="row">
-                <div class="col-sm-6 col-md-6 subpage-block">
-                  <div class="general-info">
-                    <h3>I am Web Developer/Designer @ Company.com</h3>
-                    <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
-                    <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus. Sed tellus nibh, lobortis ut blandit sed, convallis a mauris.</p>
-                  </div>
-                </div>
+          <a href="Emanuele_Sabbadini_CV.pdf" download="Emanuele_Sabbadini_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn-header-cv" id="nav-download-cv">
+            <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            <span id="nav-download-cv-text">Download CV</span>
+          </a>
 
-                <div class="col-sm-6 col-md-6 subpage-block">
-                  <div class="block-title">
-                    <h3>Testimonials</h3>
-                  </div>
-                  <div class="testimonials owl-carousel">
-                    <!-- Testimonial 2 -->
-                    <div class="testimonial-item">
-                      <!-- Testimonial Content -->
-                      <div class="testimonial-content">
-                        <div class="testimonial-text">
-                          <p>"Proin auctor pulvinar tellus, et venenatis ligula pharetra eu. Duis dictum nisi sed pellentesque euismod."</p>
-                        </div>
-                      </div>            
-                      <!-- /Testimonial Content -->  
-                      <!-- Testimonial Author -->
-                      <div class="testimonial-credits">
-                        <!-- Picture -->
-                        <div class="testimonial-picture">
-                          <img src="images/testimonials/testimonila_photo_2.png" alt="">
-                        </div>              
-                        <!-- /Picture -->
-                        <!-- Testimonial author information -->
-                        <div class="testimonial-author-info">
-                          <p class="testimonial-author">Bryan Morris</p>
-                          <p class="testimonial-firm">Sun Foods</p>
-                        </div>
-                      </div>
-                      <!-- /Testimonial author information -->               
-                    </div>
-                    <!-- End of Testimonial 2 -->
+          <button id="mobile-menu-toggle" class="mobile-toggle" aria-label="Open Navigation Menu">
+            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
 
-                    <!-- Testimonial 2 -->
-                    <div class="testimonial-item" style="width:100%">
-                      <!-- Testimonial Content -->
-                      <div class="testimonial-content">
-                        <div class="testimonial-text">
-                          <p>"Vivamus porta dapibus tristique. Suspendisse et arcu eget nisi convallis eleifend nec ac lorem."</p>
-                        </div>
-                      </div>            
-                      <!-- /Testimonial Content -->  
-                      <!-- Testimonial Author -->
-                      <div class="testimonial-credits">
-                        <!-- Picture -->
-                        <div class="testimonial-picture">
-                          <img src="images/testimonials/testimonial_photo_1.png" alt="">
-                        </div>              
-                        <!-- /Picture -->
-                        <!-- Testimonial author information -->
-                        <div class="testimonial-author-info">
-                          <p class="testimonial-author">John Doe</p>
-                          <p class="testimonial-firm">Apple Inc.</p>
-                        </div>
-                      </div>
-                      <!-- /Testimonial author information -->               
-                    </div>
-                    <!-- End of Testimonial 2 -->
-                  </div>
-                </div>
+    <main id="top">
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-main">
+              <!-- Live Availability Badge -->
+              <div class="status-badge">
+                <span class="status-pulse-dot" aria-hidden="true"></span>
+                <span id="hero-badge-text">Available for Technical Leadership & Strategic Consulting</span>
               </div>
 
-              <!-- Services block -->
-              <div class="block-title">
-                <h3>Services</h3>
+              <!-- Main Value Prop Headline -->
+              <h1 class="hero-title">
+                <span id="hero-title-prefix">Bridging Mission-Critical</span>
+                <span class="text-gradient" id="hero-title-highlight">Industrial OT</span>
+                <span id="hero-title-mid">& Scalable</span>
+                <span class="text-gradient" id="hero-title-highlight2">Enterprise IT</span>
+              </h1>
+
+              <!-- Subtitle -->
+              <p class="hero-subtitle" id="hero-subtitle">
+                Solutions Architect & Technical Lead with 20+ years of end-to-end experience connecting real-time industrial shop-floor telemetry (MES, SCADA, Level 2) with resilient modern enterprise software architectures.
+              </p>
+
+              <!-- Call to Action Buttons -->
+              <div class="hero-cta-group">
+                <a href="#experience" class="btn-primary" id="hero-cta-primary">
+                  <span>Explore Experience & Projects</span>
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                </a>
+                <a href="#contact" class="btn-secondary" id="hero-cta-secondary">
+                  <span>Get in Touch</span>
+                  <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </a>
               </div>
 
-              <div class="row">
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="service-block"> 
-                    <div class="service-info">
-                      <img src="images/service/web_design.png" alt="Responsive Design">
-                      <h4>Web Design</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="service-block"> 
-                    <div class="service-info">
-                      <img src="images/service/copywrite.png" alt="Copywriter">
-                      <h4>Copywriter</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="service-block"> 
-                    <div class="service-info">
-                      <img src="images/service/ecommerce.png" alt="E-Commerce">
-                      <h4>E-Commerce</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="service-block"> 
-                    <div class="service-info">
-                      <img src="images/service/management.png" alt="Management">
-                      <h4>Management</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                    </div>
-                  </div>
-                </div>
+              <!-- Location & Global Commissioning Tag -->
+              <div class="hero-location">
+                <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                <span id="hero-location-text">Udine, Italy • Global On-Site Commissioning</span>
               </div>
-              <!-- End of Services block -->
+            </div>
 
-              <!-- Clients block -->
-              <div class="block-title">
-                <h3>Clients</h3>
+            <!-- Profile Summary Card -->
+            <div class="hero-profile-card glass-card">
+              <div class="profile-avatar-box">
+                <img src="images/my_photo.png" alt="Emanuele Sabbadini" class="profile-avatar-img">
               </div>
-
-              <div class="row">
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="#" target="_blank"><img src="images/clients/client_1.png" alt="image"></a>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="#" target="_blank"><img src="images/clients/client_2.png" alt="image"></a>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="#" target="_blank"><img src="images/clients/client_3.png" alt="image"></a>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="#" target="_blank"><img src="images/clients/client_4.png" alt="image"></a>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="#" target="_blank"><img src="images/clients/client_5.png" alt="image"></a>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 col-md-2 subpage-block">
-                  <div class="client_block">
-                    <a href="#" target="_blank"><img src="images/clients/client_6.png" alt="image"></a>
-                  </div>
-                </div>
+              <h2 class="profile-card-name">Emanuele Sabbadini</h2>
+              <div class="profile-card-role">Solutions Architect & Technical Lead</div>
+              <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5;">
+                IT/OT Convergence • MES • SCADA • Level 2 • Distributed Systems • .NET & Modern Web
+              </p>
+              <div class="profile-social-links">
+                <a href="https://www.linkedin.com/in/emanuele-sabbadini" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile" aria-label="LinkedIn">
+                  <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                <a href="mailto:emanuele.sabbadini@gmail.com" class="social-icon-btn" title="Direct Email" aria-label="Email">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                </a>
+                <a href="Emanuele_Sabbadini_CV.pdf" download="Emanuele_Sabbadini_CV.pdf" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Download CV (PDF)" aria-label="Download CV (PDF)">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                </a>
               </div>
-              <!-- End of Clients block -->
+            </div>
+          </div>
 
-              <!-- Fun facts block -->
-              <div class="block-title">
-                <h3>Fun Facts</h3>
-              </div>
-
-              <div class="row">
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="fun-fact-block gray-bg"> 
-                    <i class="pe-7s-icon pe-7s-smile"></i>
-                    <h4>Happy Clients</h4>
-                    <span class="fun-value">1,024</span>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="fun-fact-block"> 
-                    <i class="pe-7s-icon pe-7s-alarm"></i>
-                    <h4>Working Hours</h4>
-                    <span class="fun-value">6,256</span>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="fun-fact-block gray-bg"> 
-                    <i class="pe-7s-icon pe-7s-medal"></i>
-                    <h4>Awards Won</h4>
-                    <span class="fun-value">21</span>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 subpage-block">
-                  <div class="fun-fact-block"> 
-                    <i class="pe-7s-icon pe-7s-coffee"></i>
-                    <h4>Coffee Consumed</h4>
-                    <span class="fun-value">20,000</span>
-                  </div>
-                </div>
-              </div>
-              <!-- End of Fun fucts block -->
-            </section>
-            <!-- End of About Me Subpage -->
-
-            <!-- Resume Subpage -->
-            <section class="pt-page pt-page-3" data-id="resume">
-              <div class="section-title-block">
-                <h2 class="section-title">Resume</h2>
-                <h5 class="section-description">6 Years of Experience</h5>
-              </div>
-
-              <div class="row">
-                <div class="col-sm-6 col-md-4 subpage-block">
-                  <div class="block-title">
-                    <h3>Education</h3>
-                  </div>
-                  <div class="timeline">
-                    <!-- Single event -->
-                    <div class="timeline-event te-primary">
-                      <h5 class="event-date">2010</h5>
-                      <h4 class="event-name">Specialization Course</h4>
-                      <span class="event-description">University of Studies</span>
-                      <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                    </div>
-                    <!-- Single event -->
-                    <div class="timeline-event te-primary">
-                      <h5 class="event-date">2009</h5>
-                      <h4 class="event-name">Specialization Course</h4>
-                      <span class="event-description">University of Studies</span>
-                      <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                    </div>
-                    <!-- Single event -->
-                    <div class="timeline-event te-primary">
-                      <h5 class="event-date">2008</h5>
-                      <h4 class="event-name">Specialization Course</h4>
-                      <span class="event-description">University of Studies</span>
-                      <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4 subpage-block">
-                  <div class="block-title">
-                    <h3>Experience</h3>
-                  </div>
-                  <div class="timeline">
-                    <!-- Single event -->
-                    <div class="timeline-event te-primary">
-                      <h5 class="event-date">Dec 2012 - Current</h5>
-                      <h4 class="event-name">Frontend-developer</h4>
-                      <span class="event-description">Web Agency</span>
-                      <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                    </div>
-                    <!-- Single event -->
-                    <div class="timeline-event te-primary">
-                      <h5 class="event-date">Dec 2011 - Nov 2012</h5>
-                      <h4 class="event-name">Web Designer</h4>
-                      <span class="event-description">Apple Inc.</span>
-                      <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                    </div>
-                    <!-- Single event -->
-                    <div class="timeline-event te-primary">
-                      <h5 class="event-date">Jan 2010 - Dec 2011</h5>
-                      <h4 class="event-name">Graphic Designer</h4>
-                      <span class="event-description">Web Agency</span>
-                      <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4 subpage-block">
-                  <div class="block-title">
-                    <h3>Design Skills</h3>
-                  </div>
-                  <div class="skills-info">
-                    <h4>Web Design</h4>                               
-                    <div class="skill-container">
-                      <div class="skill-percentage skill-1"></div>
-                    </div>
-
-                    <h4>Graphic Design</h4>
-                    <div class="skill-container">
-                      <div class="skill-percentage skill-2"></div>
-                    </div>
-
-                    <h4>Print Design</h4>
-                    <div class="skill-container">
-                      <div class="skill-percentage skill-3"></div>
-                    </div> 
-                  </div>
-
-                  <div class="block-title">
-                    <h3>Coding Skills</h3>
-                  </div>
-                  <div class="skills-info">
-                    <h4>HML5</h4>                               
-                    <div class="skill-container">
-                      <div class="skill-percentage skill-4"></div>
-                    </div>
-
-                    <h4>CSS3</h4>
-                    <div class="skill-container">
-                      <div class="skill-percentage skill-5"></div>
-                    </div>
-
-                    <h4>jQuery</h4>
-                    <div class="skill-container">
-                      <div class="skill-percentage skill-6"></div>
-                    </div>
-
-                    <h4>Wordpress</h4>
-                    <div class="skill-container">
-                      <div class="skill-percentage skill-7"></div>
-                    </div>
-
-                    <h4>PHP</h4>
-                    <div class="skill-container">
-                      <div class="skill-percentage skill-8"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-12 col-md-12">
-                  <div class="download-cv-block">
-                    <a class="button" target="_blank" href="#">Download CV</a>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- End Resume Subpage -->
-
-
-            <!-- Portfolio Subpage -->
-            <section class="pt-page pt-page-4" data-id="portfolio">
-              <div class="section-title-block">
-                <h2 class="section-title">Portfolio</h2>
-                <h5 class="section-description">My Best Works</h5>
-              </div>
-
-              <!-- Portfolio Content -->
-              <div class="portfolio-content">
-                            
-                <!-- Portfolio filter -->
-                <ul id="portfolio_filters" class="portfolio-filters">
-                  <li class="active">
-                    <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
-                  </li>
-                  <li>
-                    <a class="filter btn btn-sm btn-link" data-group="media">Media</a>
-                  </li>
-                  <li>
-                    <a class="filter btn btn-sm btn-link" data-group="illustration">Illustration</a>
-                  </li>
-                  <li>
-                    <a class="filter btn btn-sm btn-link" data-group="video">Video</a>
-                  </li>
-                </ul>
-                <!-- End of Portfolio filter -->
-
-                <!-- Portfolio Grid -->
-                <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
-
-                  <!-- Portfolio Item 1 -->
-                  <figure class="item" data-groups='["all", "media"]'>
-                    <a class="ajax-page-load" href="portfolio-1.html">
-                      <img src="images/portfolio/1.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Media</small>
-                        <i class="fa fa-file-text-o"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 1 -->
-
-                  <!-- Portfolio Item 2 -->
-                  <figure class="item" data-groups='["all", "video"]'>
-                    <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
-                      <img src="images/portfolio/2.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Video</small>
-                        <i class="fa fa-video-camera"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 2 -->
-
-                  <!-- Portfolio Item 3 -->
-                  <figure class="item" data-groups='["all","illustration"]'>
-                    <a href="images/portfolio/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                      <img src="images/portfolio/3.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Illustration</small>
-                        <i class="fa fa-image"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 3 -->
-
-                  <!-- Portfolio Item 4 -->
-                  <figure class="item" data-groups='["all", "media"]'>
-                    <a class="ajax-page-load" href="portfolio-1.html">
-                      <img src="images/portfolio/4.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Media</small>
-                        <i class="fa fa-file-text-o"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 4 -->
-
-                  <!-- Portfolio Item 5 -->
-                  <figure class="item" data-groups='["all", "illustration"]'>
-                    <a href="images/portfolio/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
-                      <img src="images/portfolio/5.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Illustration</small>
-                        <i class="fa fa-image"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 5 -->
-
-                  <!-- Portfolio Item 6 -->
-                  <figure class="item" data-groups='["all", "media"]'>
-                    <a class="ajax-page-load" href="portfolio-1.html">
-                      <img src="images/portfolio/6.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Media</small>
-                        <i class="fa fa-file-text-o"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 6 -->
-
-                  <!-- Portfolio Item 7 -->
-                  <figure class="item" data-groups='["all", "video"]'>
-                    <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi" class="lightbox mfp-iframe">
-                      <img src="images/portfolio/7.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Video</small>
-                        <i class="fa fa-video-camera"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 7 -->
-
-                  <!-- Portfolio Item 8 -->
-                  <figure class="item" data-groups='["all",  "media"]'>
-                    <a class="ajax-page-load" href="portfolio-1.html">
-                      <img src="images/portfolio/8.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Media</small>
-                        <i class="fa fa-file-text-o"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 8 -->
-
-                  <!-- Portfolio Item 9 -->
-                  <figure class="item" data-groups='["all","illustration"]'>
-                    <a href="images/portfolio/9.jpg" class="lightbox" title="Mauris Neque Dolor">
-                      <img src="images/portfolio/9.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Illustration</small>
-                        <i class="fa fa-image"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 9 -->
-
-                  <!-- Portfolio Item 10 -->
-                  <figure class="item" data-groups='["all", "video"]'>
-                    <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu" class="lightbox mfp-iframe">
-                      <img src="images/portfolio/10.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Video</small>
-                        <i class="fa fa-video-camera"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 10 -->
-
-                  <!-- Portfolio Item 11 -->
-                  <figure class="item" data-groups='["all","illustration"]'>
-                    <a href="images/portfolio/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
-                      <img src="images/portfolio/11.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Illustration</small>
-                        <i class="fa fa-image"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 11 -->
-
-                  <!-- Portfolio Item 12 -->
-                  <figure class="item" data-groups='["all","media"]'>
-                    <a class="ajax-page-load" href="portfolio-1.html">
-                      <img src="images/portfolio/12.jpg" alt="">
-                      <div>
-                        <h5 class="name">Project Name</h5>
-                        <small>Media</small>
-                        <i class="fa fa-file-text-o"></i>
-                      </div>
-                    </a>
-                  </figure>
-                  <!-- /Portfolio Item 12 -->
-                </div>
-                <!-- /Portfolio Grid -->
-
-              </div>
-              <!-- /Portfolio Content -->
-
-            </section>
-            <!-- /Portfolio Subpage -->
-
-            <!-- Blog Subpage -->
-            <section class="pt-page pt-page-5" data-id="blog">
-              <div class="section-title-block">
-                <h2 class="section-title">Blog</h2>
-                <h5 class="section-description">My Diary</h5>
-              </div>
-              <div class="blog-masonry">
-                <!-- Blog Post 1 -->
-                <div class="item">
-                  <div class="blog-card">
-                    <div class="media-block">
-                      <a href="blog-post-1.html">
-                        <img class="post-image img-responsive" src="images/blog/blog_post_1.jpg" alt="blog-post-1" />
-                        <div class="mask"></div>
-                        <div class="post-date"><span class="day">6</span><span class="month">Dec</span><!--<span class="year">2016</span>--></div>
-                      </a>
-                    </div>
-                    <div class="post-info">
-                      <ul class="category">
-                        <li><a href="#">Travel</a></li>
-                      </ul>
-                      <a href="blog-post-1.html"><h4 class="blog-item-title">Bootstrap is the Most Popular Framework</h4></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of Blog Post 1 -->
-
-                <!-- Blog Post 2 -->
-                <div class="item">
-                  <div class="blog-card">
-                    <div class="media-block">
-                      <a href="blog-post-1.html">
-                        <img class="post-image img-responsive" src="images/blog/blog_post_2.jpg" alt="blog-post-2" />
-                        <div class="mask"></div>
-                        <div class="post-date"><span class="day">3</span><span class="month">Nov</span><!--<span class="year">2016</span>--></div>
-                      </a>
-                    </div>
-                    <div class="post-info">
-                      <ul class="category">
-                        <li><a href="#">jQuery</a></li>
-                      </ul>
-                      <a href="blog-post-1.html"><h4 class="blog-item-title">One Framework, Every Device</h4></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of Blog Post 2 -->
-
-                <!-- Blog Post 3 -->
-                <div class="item">
-                  <div class="blog-card">
-                    <div class="media-block">
-                      <a href="blog-post-1.html">
-                        <img class="post-image img-responsive" src="images/blog/blog_post_3.jpg" alt="blog-post-3" />
-                        <div class="mask"></div>
-                        <div class="post-date"><span class="day">12</span><span class="month">Oct</span><!--<span class="year">2016</span>--></div>
-                      </a>
-                    </div>
-                    <div class="post-info">
-                      <ul class="category">
-                        <li><a href="#">Sport</a></li>
-                      </ul>
-                      <a href="blog-post-1.html"><h4 class="blog-item-title">Designed for Everyone, Everywhere</h4></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of Blog Post 3 -->
-
-                <!-- Blog Post 4 -->
-                <div class="item">
-                  <div class="blog-card">
-                    <div class="media-block">
-                      <a href="blog-post-1.html">
-                        <img class="post-image img-responsive" src="images/blog/blog_post_4.jpg" alt="blog-post-4" />
-                        <div class="mask"></div>
-                        <div class="post-date"><span class="day">18</span><span class="month">Aug</span><!--<span class="year">2016</span>--></div>
-                      </a>
-                    </div>
-                    <div class="post-info">
-                      <ul class="category">
-                        <li><a href="#">CSS</a></li>
-                      </ul>
-                      <a href="blog-post-1.html"><h4 class="blog-item-title">An Introduction To PostCSS</h4></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of Blog Post 4 -->
-
-                <!-- Blog Post 5 -->
-                <div class="item">
-                  <div class="blog-card">
-                    <div class="media-block">
-                      <a href="blog-post-1.html">
-                        <img class="post-image img-responsive" src="images/blog/blog_post_5.jpg" alt="blog-post-5" />
-                        <div class="mask"></div>
-                        <div class="post-date"><span class="day">2</span><span class="month">Jul</span><!--<span class="year">2016</span>--></div>
-                      </a>
-                    </div>
-                    <div class="post-info">                        
-                      <ul class="category">
-                        <li><a href="#">CSS3</a></li>
-                      </ul>
-                      <a href="blog-post-1.html"><h4 class="blog-item-title">Original and Innovative Web Layouts</h4></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of Blog Post 5 -->
-
-                <!-- Blog Post 6 -->
-                <div class="item">
-                  <div class="blog-card">
-                    <div class="media-block">
-                      <a href="blog-post-1.html">
-                        <img class="post-image img-responsive" src="images/blog/blog_post_6.jpg" alt="blog-post-6" />
-                        <div class="mask"></div>
-                        <div class="post-date"><span class="day">8</span><span class="month">May</span><!--<span class="year">2016</span>--></div>
-                      </a>
-                    </div>
-                    <div class="post-info">
-                      <ul class="category">
-                        <li><a href="#">HTML5</a></li>
-                      </ul>
-                      <a href="blog-post-1.html"><h4 class="blog-item-title">Creative and Innovative Navigation Designs</h4></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of Blog Post 6 -->
-
-                <!-- Blog Post 7 -->
-                <div class="item">
-                  <div class="blog-card">
-                    <div class="media-block">
-                      <a href="blog-post-1.html">
-                        <img class="post-image img-responsive" src="images/blog/blog_post_7.jpg" alt="blog-post-7" />
-                        <div class="mask"></div>
-                        <div class="post-date"><span class="day">7</span><span class="month">Apr</span><!--<span class="year">2016</span>--></div>
-                      </a>
-                    </div>
-                    <div class="post-info">
-                      <ul class="category">
-                        <li><a href="#">Design</a></li>
-                      </ul>
-                      <a href="blog-post-1.html"><h4 class="blog-item-title">Navigation for Mega-Sites</h4></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of Blog Post 7 -->
-
-                <!-- Blog Post 8 -->
-                <div class="item">
-                  <div class="blog-card">
-                    <div class="media-block">
-                      <a href="blog-post-1.html">
-                        <img class="post-image img-responsive" src="images/blog/blog_post_8.jpg" alt="blog-post-8" />
-                        <div class="mask"></div>
-                        <div class="post-date"><span class="day">21</span><span class="month">Mar</span><!--<span class="year">2016</span>--></div>
-                      </a>
-                    </div>
-                    <div class="post-info">
-                      <ul class="category">
-                        <li><a href="#">CSS3</a></li>
-                      </ul>
-                      <a href="blog-post-1.html"><h4 class="blog-item-title">Front-End Challenge Accepted: CSS 3D Cube</h4></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- End of Blog Post 8 -->
-              </div>
-            </section>
-            <!-- End Blog Subpage -->
-
-            <!-- Contact Subpage -->
-            <section class="pt-page pt-page-6" data-id="contact">
-              <div class="section-title-block">
-                <h2 class="section-title">Contact</h2>
-                <h5 class="section-description">Get in Touch</h5>
-              </div>
-
-              <div class="row">
-                <div class="col-sm-6 col-md-6 subpage-block">
-                  <div class="block-title">
-                    <h3>Get in Touch</h3>
-                  </div>
-                  <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus.</p>
-                  <div class="contact-info-block">
-                    <div class="ci-icon">
-                      <i class="pe-7s-icon pe-7s-map-marker"></i>
-                    </div>
-                    <div class="ci-text">
-                      <h5>Los Angeles, USA</h5>
-                    </div>
-                  </div>
-                  <div class="contact-info-block">
-                    <div class="ci-icon">
-                      <i class="pe-7s-icon pe-7s-mail"></i>
-                    </div>
-                    <div class="ci-text">
-                      <h5>alexsmith@example.com</h5>
-                    </div>
-                  </div>
-                  <div class="contact-info-block">
-                    <div class="ci-icon">
-                      <i class="pe-7s-icon pe-7s-call"></i>
-                    </div>
-                    <div class="ci-text">
-                      <h5>+123 654 78900</h5>
-                    </div>
-                  </div>
-                  <div class="contact-info-block">
-                    <div class="ci-icon">
-                      <i class="pe-7s-icon pe-7s-check"></i>
-                    </div>
-                    <div class="ci-text">
-                      <h5>Freelance Available</h5>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-6 subpage-block">
-                  <div class="block-title">
-                    <h3>Contact Form</h3>
-                  </div>
-                  <form id="contact-form" method="post" action="contact_form/contact_form.php">
-
-                    <div class="messages"></div>
-
-                    <div class="controls">
-                      <div class="form-group">
-                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
-                          <div class="form-control-border"></div>
-                          <i class="form-control-icon fa fa-user"></i>
-                          <div class="help-block with-errors"></div>
-                      </div>
-
-                      <div class="form-group">
-                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
-                          <div class="form-control-border"></div>
-                          <i class="form-control-icon fa fa-envelope"></i>
-                          <div class="help-block with-errors"></div>
-                      </div>
-
-                      <div class="form-group">
-                          <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
-                          <div class="form-control-border"></div>
-                          <i class="form-control-icon fa fa-comment"></i>
-                          <div class="help-block with-errors"></div>
-                      </div>
-
-                      <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-callback="correctCaptcha"></div>
-
-                      <input type="submit" class="button btn-send" value="Send message">
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </section>
-            <!-- End Contact Subpage -->
-
+          <!-- Key Metrics / Stats Bar -->
+          <div class="stats-bar">
+            <div class="stat-item glass-card">
+              <div class="stat-num" id="stat-years-num">20+</div>
+              <div class="stat-label" id="stat-years-label">Years of Engineering Experience</div>
+            </div>
+            <div class="stat-item glass-card">
+              <div class="stat-num" id="stat-level2-num">Mission-Critical</div>
+              <div class="stat-label" id="stat-level2-label">Level 2 Automation & MES Systems</div>
+            </div>
+            <div class="stat-item glass-card">
+              <div class="stat-num" id="stat-pipeline-num">100%</div>
+              <div class="stat-label" id="stat-pipeline-label">Shop-Floor to Cloud Pipeline Mastery</div>
+            </div>
+            <div class="stat-item glass-card">
+              <div class="stat-num" id="stat-leadership-num">Global Delivery</div>
+              <div class="stat-label" id="stat-leadership-label">Autonomous On-Site Commissioning</div>
+            </div>
           </div>
         </div>
-        <!-- /Page changer wrapper -->
+      </section>
+
+      <!-- Executive Summary & 4 Pillars -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Background & Vision</span>
+            <h2 class="section-title" id="summary-title">Executive Summary</h2>
+            <p class="section-subtitle" id="summary-subtitle">
+              Two decades of hands-on technical leadership at the intersection of heavy industry and enterprise software.
+            </p>
+          </div>
+
+          <div class="summary-paragraphs">
+            <p class="summary-lead" id="summary-body-1">
+              Software Engineer & OT Specialist with 20+ years of end-to-end experience bridging modern IT architectures (web, desktop, cloud) and industrial automation (SCADA, MES, process control).
+            </p>
+            <p id="summary-body-2">
+              Proven track record delivering autonomous on-site commissioning for mission-critical operations, architecting robust enterprise data pipelines, and translating complex client requirements into scalable industrial solutions.
+            </p>
+            <p id="summary-body-3">
+              Adept at cross-functional leadership, stakeholder management, and continuous technological modernization. Seeking to drive digital transformation and assume technical leadership responsibilities in high-impact industrial or enterprise environments.
+            </p>
+          </div>
+
+          <!-- 4 Core Pillars Grid -->
+          <div class="pillars-grid" id="pillars-grid">
+            <div class="glass-card pillar-card">
+              <div class="pillar-icon-box">
+                <svg class="w-6 h-6 text-cyan" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              </div>
+              <h3 class="pillar-title">IT/OT Convergence</h3>
+              <p class="pillar-desc">Unifying PLC edge telemetry, Kepware OPC, and Level 2 process control with enterprise MES, ERP (SAP), and distributed microservices.</p>
+            </div>
+            <div class="glass-card pillar-card">
+              <div class="pillar-icon-box">
+                <svg class="w-6 h-6 text-emerald" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+              </div>
+              <h3 class="pillar-title">Mission-Critical Resiliency</h3>
+              <p class="pillar-desc">Architecting zero-downtime, multi-threaded event-sourcing engines for continuous steel casting and high-density financial distribution.</p>
+            </div>
+            <div class="glass-card pillar-card">
+              <div class="pillar-icon-box">
+                <svg class="w-6 h-6 text-amber" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+              </div>
+              <h3 class="pillar-title">Legacy Modernization</h3>
+              <p class="pillar-desc">Phased migrations from legacy codebases (Delphi, monolithic WinForms) to modern C#/.NET, Clean Architecture, and high-performance APIs.</p>
+            </div>
+            <div class="glass-card pillar-card">
+              <div class="pillar-icon-box">
+                <svg class="w-6 h-6 text-indigo" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+              </div>
+              <h3 class="pillar-title">Technical Team Leadership</h3>
+              <p class="pillar-desc">Directing cross-functional internal engineers and external vendors, setting architectural standards, and driving autonomous global plant commissioning.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- IT/OT Convergence Architecture Stack -->
+      <section id="convergence" class="section" style="background: rgba(13, 20, 36, 0.4);">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Architectural Framework</span>
+            <h2 class="section-title" id="convergence-title">The IT/OT Architectural Stack</h2>
+            <p class="section-subtitle" id="convergence-subtitle">
+              How Emanuele connects the raw industrial shop floor directly to enterprise business intelligence.
+            </p>
+          </div>
+
+          <div class="convergence-container" id="convergence-layers">
+            <!-- Tier 4 -->
+            <div class="convergence-tier glass-card" data-tier="0">
+              <div class="tier-header">
+                <span class="tier-badge tier-badge-1">Tier 4 • Enterprise & Cloud (IT)</span>
+                <h3 class="tier-title">Enterprise Systems & Analytics</h3>
+              </div>
+              <div class="tier-tech">DELMIA Apriso MES • SAP ERP • SQL Server • InfluxDB • Web APIs • Reporting Dashboards</div>
+              <p class="tier-desc">Business logic, production planning, ERP reconciliation, OEE analytics, and executive intelligence dashboards.</p>
+            </div>
+            <!-- Tier 3 -->
+            <div class="convergence-tier glass-card" data-tier="1">
+              <div class="tier-header">
+                <span class="tier-badge tier-badge-2">Tier 3 • Core Architecture & Middleware</span>
+                <h3 class="tier-title">Integration & Event Pipeline</h3>
+              </div>
+              <div class="tier-tech">Clean Architecture • Event Sourcing • Microservices • UNS / Message Brokers • .NET / C# • Python • Ruby</div>
+              <p class="tier-desc">Resilient high-throughput pipelines, data normalization, schema modeling, state machines, and bidirectional synchronization.</p>
+            </div>
+            <!-- Tier 2 -->
+            <div class="convergence-tier glass-card" data-tier="2">
+              <div class="tier-header">
+                <span class="tier-badge tier-badge-3">Tier 2 • Supervisory & Process Control</span>
+                <h3 class="tier-title">Level 2 Automation & Diagnostics</h3>
+              </div>
+              <div class="tier-tech">Level 2 Continuous Casting • SCADA • Computer Vision Scrap Tracking • Multithreading • WPF/WCF</div>
+              <p class="tier-desc">Real-time process optimization, automated metallurgical recommendations, edge classification, and dynamic operator consoles.</p>
+            </div>
+            <!-- Tier 1 -->
+            <div class="convergence-tier glass-card" data-tier="3">
+              <div class="tier-header">
+                <span class="tier-badge tier-badge-4">Tier 1 • Industrial Shop-Floor (OT)</span>
+                <h3 class="tier-title">Edge Telemetry & Hardware</h3>
+              </div>
+              <div class="tier-tech">Kepware OPC UA / DA • Industrial PLCs • Sensors • Shop-Floor Edge Gateways • Field Commissioning</div>
+              <p class="tier-desc">Sub-second sensor ingestion, machine state acquisition, protocol translation, and autonomous plant floor deployment.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Timeline -->
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Track Record</span>
+            <h2 class="section-title" id="experience-title">Professional Experience</h2>
+            <p class="section-subtitle" id="experience-subtitle">
+              20+ years of high-concurrency software development, industrial automation, and systems architecture.
+            </p>
+          </div>
+
+          <div class="timeline-container" id="timeline-container">
+            <!-- Faber Industrie -->
+            <div class="timeline-item">
+              <div class="timeline-node"></div>
+              <div class="timeline-content glass-card">
+                <div class="timeline-top">
+                  <span class="timeline-period">05/2024 – Present</span>
+                  <span class="timeline-location">Udine, Italy</span>
+                </div>
+                <h3 class="timeline-title">OT Specialist | MES & Industrial Integration</h3>
+                <div class="timeline-company">@ Faber Industrie S.p.a.</div>
+                <div class="timeline-env"><strong>Environment & Tools: </strong>Delmia Apriso MES, Kepware OPC, MS SQL Server, Jira, Confluence</div>
+                <ul class="timeline-highlights">
+                  <li><strong>Architecture & MES Modernization: </strong>Co-design technical continuous improvement for enterprise Delmia Apriso MES, standardizing data models across production lines and work centers to ensure high-fidelity shop-floor tracking.</li>
+                  <li><strong>Shop-Floor to Enterprise Integration: </strong>Configure edge telemetry pipelines via Kepware OPC servers, bridging PLC hardware directly with the MES to capture real-time production, state, and traceability data.</li>
+                  <li><strong>Process Optimization & OEE Accuracy: </strong>Collaborate with Value Stream Leaders to eliminate manufacturing bottlenecks, aligning system business logic with plant operations to improve Overall Equipment Effectiveness (OEE) metrics.</li>
+                  <li><strong>Vendor & Lifecycle Management: </strong>Author technical specifications and functional blueprints for system expansions, managing external software vendors through delivery, integration testing, and successful go-live phases.</li>
+                  <li><strong>Operational Enablement & Intelligence: </strong>Design SQL reporting dashboards for plant management and conduct technical onboarding to drive adoption across plant supervisors and operators.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- SMS Group -->
+            <div class="timeline-item">
+              <div class="timeline-node"></div>
+              <div class="timeline-content glass-card">
+                <div class="timeline-top">
+                  <span class="timeline-period">09/2015 – 05/2024</span>
+                  <span class="timeline-location">Udine, Italy</span>
+                </div>
+                <h3 class="timeline-title">Lead Software Engineer & Process Control Specialist</h3>
+                <div class="timeline-company">@ SMS Group S.p.a.</div>
+                <div class="timeline-env"><strong>Environment & Tools: </strong>C# (.NET Framework), WPF, WCF, WinForms, Delphi, Oracle, SQL Server, Git, Multithreading, Event Sourcing</div>
+                <ul class="timeline-highlights">
+                  <li><strong>Mission-Critical Level 2 Architecture: </strong>Architected and maintained Level 2 automation platforms for continuous casting and steelmaking, leveraging multi-threaded and event-sourcing patterns to process real-time PLC telemetry and deliver automated process optimization recommendations.</li>
+                  <li><strong>Technical Team Leadership: </strong>Directed a cross-functional team of internal software engineers and external contractors in designing and delivering the core software suite for the casting area, managing code reviews, delivery sprints, and architectural alignment.</li>
+                  <li><strong>Modernization & Refactoring: </strong>Co-architected the phased migration of legacy components from Delphi to modern C#/.NET, replacing backend logic and user interfaces to enhance system maintainability and operator throughput.</li>
+                  <li><strong>Vision System Integration: </strong>Co-designed the integration of an intelligent scrap yard management system incorporating computer vision algorithms for real-time operational classification and material tracking.</li>
+                  <li><strong>Autonomous Commissioning & Field Integration: </strong>Executed end-to-end on-site deployment, commissioning, and validation in global plant environments; engineered secure data interfaces connecting Level 2 systems to enterprise ERP/MES layers and mentored junior engineers on industrial protocol standards.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Procne -->
+            <div class="timeline-item">
+              <div class="timeline-node"></div>
+              <div class="timeline-content glass-card">
+                <div class="timeline-top">
+                  <span class="timeline-period">08/2004 – 08/2015</span>
+                  <span class="timeline-location">Udine, Italy</span>
+                </div>
+                <h3 class="timeline-title">Full-Stack Software Engineer</h3>
+                <div class="timeline-company">@ Procne S.r.l.</div>
+                <div class="timeline-env"><strong>Environment & Tools: </strong>C#, .NET (WPF, WCF), Ruby on Rails, PHP, Node.js, SQL Server, PostgreSQL, AngularJS</div>
+                <ul class="timeline-highlights">
+                  <li><strong>Enterprise Financial & Healthcare Engine (2012–2015): </strong>Architected and deployed a calculation engine for public welfare institutions handling pension distributions, tax withholding, and healthcare refunds; built high-density WPF desktop interfaces, automated batch reporting, and managed on-site production deployments. (C#, .NET, WPF, WCF, SQL Server)</li>
+                  <li><strong>Real-Time Remote Support Platform (2014): </strong>Engineered a full-stack web application for remote industrial/commercial diagnostics, implementing real-time messaging, ticket lifecycle workflows, and automated image ingestion for field troubleshooting. (Ruby on Rails, AngularJS, PostgreSQL)</li>
+                  <li><strong>Graph Visualization Engine (2013): </strong>Designed and developed an interactive data exploration tool rendering entity relationships using dynamic SVG graph topologies and graph databases. (Node.js, D3.js, OrientDB, AngularJS)</li>
+                  <li><strong>B2B E-Commerce & Portal (2009–2012): </strong>Built scalable backend services for a distributed smart-home franchise network, integrating multi-supplier product catalogs, secure SOAP banking payments, and cross-domain authentication. (Ruby on Rails, PHP, PostgreSQL)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Architectural Case Studies -->
+      <section id="projects" class="section" style="background: rgba(13, 20, 36, 0.4);">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Key Deliverables</span>
+            <h2 class="section-title" id="projects-title">Architectural Case Studies</h2>
+            <p class="section-subtitle" id="projects-subtitle">
+              Representative mission-critical systems and software architectures designed and delivered.
+            </p>
+          </div>
+
+          <div class="projects-grid" id="projects-grid">
+            <div class="case-study-card glass-card">
+              <div class="case-study-top">
+                <span class="case-tag">Industrial Automation</span>
+                <span class="case-org">SMS Group S.p.a.</span>
+              </div>
+              <h3 class="case-title">Mission-Critical Level 2 Casting Automation</h3>
+              <p class="case-desc">Engineered a multi-threaded process control platform for continuous steel casting. Ingests high-frequency PLC telemetry, calculates real-time metallurgical cooling parameters, and delivers automated recommendations directly to plant operators with sub-second responsiveness.</p>
+              <div class="case-tech-tags">
+                <span class="tech-pill">C# / .NET</span>
+                <span class="tech-pill">Multithreading</span>
+                <span class="tech-pill">Event Sourcing</span>
+                <span class="tech-pill">Oracle</span>
+                <span class="tech-pill">Level 2 Automation</span>
+                <span class="tech-pill">WPF</span>
+              </div>
+            </div>
+
+            <div class="case-study-card glass-card">
+              <div class="case-study-top">
+                <span class="case-tag">IT/OT Convergence</span>
+                <span class="case-org">Faber Industrie S.p.a.</span>
+              </div>
+              <h3 class="case-title">Shop-Floor to Enterprise Telemetry Pipeline</h3>
+              <p class="case-desc">Connected industrial shop-floor manufacturing cells directly to Delmia Apriso MES via Kepware OPC servers. Standardized heterogeneous PLC data models into a unified schema, enabling real-time work-in-progress tracking and millisecond accuracy for Overall Equipment Effectiveness (OEE).</p>
+              <div class="case-tech-tags">
+                <span class="tech-pill">DELMIA Apriso MES</span>
+                <span class="tech-pill">Kepware OPC</span>
+                <span class="tech-pill">MS SQL Server</span>
+                <span class="tech-pill">PLC Integration</span>
+                <span class="tech-pill">OEE Optimization</span>
+              </div>
+            </div>
+
+            <div class="case-study-card glass-card">
+              <div class="case-study-top">
+                <span class="case-tag">AI & Computer Vision</span>
+                <span class="case-org">SMS Group S.p.a.</span>
+              </div>
+              <h3 class="case-title">Intelligent Scrap Yard Classification & Tracking</h3>
+              <p class="case-desc">Architected the software integration layer for a computer vision scrap yard management solution. Evaluates incoming raw scrap metal feeds, performs operational quality grading, and directs crane automation logistics while maintaining data fidelity with central manufacturing records.</p>
+              <div class="case-tech-tags">
+                <span class="tech-pill">Computer Vision</span>
+                <span class="tech-pill">C# / .NET</span>
+                <span class="tech-pill">Process Control</span>
+                <span class="tech-pill">SQL Server</span>
+                <span class="tech-pill">System Integration</span>
+              </div>
+            </div>
+
+            <div class="case-study-card glass-card">
+              <div class="case-study-top">
+                <span class="case-tag">Enterprise FinTech & Public Sector</span>
+                <span class="case-org">Procne S.r.l.</span>
+              </div>
+              <h3 class="case-title">High-Density Welfare & Pension Calculation Engine</h3>
+              <p class="case-desc">Designed and implemented a calculation and disbursement engine for public welfare organizations. Handled multi-tiered tax withholdings, complex healthcare benefit formulas, automated batch schedules, and high-density operator desktop consoles.</p>
+              <div class="case-tech-tags">
+                <span class="tech-pill">C#</span>
+                <span class="tech-pill">.NET WPF/WCF</span>
+                <span class="tech-pill">SQL Server</span>
+                <span class="tech-pill">Batch Processing</span>
+                <span class="tech-pill">Enterprise Architecture</span>
+              </div>
+            </div>
+
+            <div class="case-study-card glass-card">
+              <div class="case-study-top">
+                <span class="case-tag">Data Visualization & Analytics</span>
+                <span class="case-org">Procne S.r.l.</span>
+              </div>
+              <h3 class="case-title">Dynamic SVG Topology & Entity Graph Visualizer</h3>
+              <p class="case-desc">Developed an interactive web-based relational visualization engine rendering complex entity-relationship graphs. Allowed real-time exploration, clustered node analysis, and sub-graph isolation powered by dynamic SVG rendering and graph database persistence.</p>
+              <div class="case-tech-tags">
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">D3.js</span>
+                <span class="tech-pill">SVG Topology</span>
+                <span class="tech-pill">OrientDB</span>
+                <span class="tech-pill">AngularJS</span>
+              </div>
+            </div>
+
+            <div class="case-study-card glass-card">
+              <div class="case-study-top">
+                <span class="case-tag">Legacy Modernization</span>
+                <span class="case-org">SMS Group S.p.a.</span>
+              </div>
+              <h3 class="case-title">Phased Delphi to Modern .NET Architecture Migration</h3>
+              <p class="case-desc">Strategically decomposed a monolithic legacy Delphi Level 2 process control suite into modular C#/.NET services. Ensured continuous operational uptime during phased rollout without interrupting active 24/7 steelmaking operations.</p>
+              <div class="case-tech-tags">
+                <span class="tech-pill">Architecture Migration</span>
+                <span class="tech-pill">Delphi</span>
+                <span class="tech-pill">C# / .NET</span>
+                <span class="tech-pill">Clean Architecture</span>
+                <span class="tech-pill">WCF / Microservices</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Technical Skills Matrix -->
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Technical Inventory</span>
+            <h2 class="section-title" id="skills-title">Technical Skills Matrix</h2>
+            <p class="section-subtitle" id="skills-subtitle">
+              Comprehensive technical proficiency developed over two decades of production deployments.
+            </p>
+          </div>
+
+          <!-- Interactive Filter Tabs -->
+          <div class="skills-filter-nav">
+            <button class="skill-filter-btn active" data-filter="all">All Domains</button>
+            <button class="skill-filter-btn" data-filter="arch">Architecture & Patterns</button>
+            <button class="skill-filter-btn" data-filter="ot">Industrial & OT</button>
+            <button class="skill-filter-btn" data-filter="lang">Languages & Stacks</button>
+            <button class="skill-filter-btn" data-filter="data">Databases & Infrastructure</button>
+          </div>
+
+          <div class="skills-grid" id="skills-grid">
+            <div class="skills-category glass-card" data-category-id="arch">
+              <div class="skills-category-header">
+                <h3 class="skills-category-title">Architecture & Systems Design</h3>
+              </div>
+              <div class="skills-pill-list">
+                <span class="skill-badge">Clean Architecture</span>
+                <span class="skill-badge">Event-Driven Architectures</span>
+                <span class="skill-badge">Microservices</span>
+                <span class="skill-badge">UNS / Message Brokers</span>
+                <span class="skill-badge">Real-time Systems</span>
+                <span class="skill-badge">Schema Design</span>
+                <span class="skill-badge">System Integration</span>
+                <span class="skill-badge">Scalable Design Patterns</span>
+                <span class="skill-badge">Multithreading & Concurrency</span>
+              </div>
+            </div>
+
+            <div class="skills-category glass-card" data-category-id="ot">
+              <div class="skills-category-header">
+                <h3 class="skills-category-title">Industrial Automation & OT</h3>
+              </div>
+              <div class="skills-pill-list">
+                <span class="skill-badge">DELMIA Apriso MES</span>
+                <span class="skill-badge">Kepware OPC (UA/DA)</span>
+                <span class="skill-badge">SCADA & Level 2 Automation</span>
+                <span class="skill-badge">Shop-Floor Data Pipelines</span>
+                <span class="skill-badge">OEE Calculation & Tracking</span>
+                <span class="skill-badge">Autonomous Field Commissioning</span>
+                <span class="skill-badge">PLC Hardware Bridging</span>
+                <span class="skill-badge">Computer Vision Integration</span>
+              </div>
+            </div>
+
+            <div class="skills-category glass-card" data-category-id="lang">
+              <div class="skills-category-header">
+                <h3 class="skills-category-title">Programming Languages & Stacks</h3>
+              </div>
+              <div class="skills-pill-list">
+                <span class="skill-badge">C# (.NET / Core / Framework)</span>
+                <span class="skill-badge">Ruby (Ruby on Rails)</span>
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">JavaScript & TypeScript</span>
+                <span class="skill-badge">PHP</span>
+                <span class="skill-badge">Delphi</span>
+                <span class="skill-badge">HTML5 & CSS3</span>
+                <span class="skill-badge">Angular, React, Svelte</span>
+              </div>
+            </div>
+
+            <div class="skills-category glass-card" data-category-id="data">
+              <div class="skills-category-header">
+                <h3 class="skills-category-title">Databases, Tools & Platforms</h3>
+              </div>
+              <div class="skills-pill-list">
+                <span class="skill-badge">PostgreSQL</span>
+                <span class="skill-badge">MS SQL Server</span>
+                <span class="skill-badge">Oracle</span>
+                <span class="skill-badge">InfluxDB (Time-series)</span>
+                <span class="skill-badge">MongoDB</span>
+                <span class="skill-badge">Redis</span>
+                <span class="skill-badge">Docker</span>
+                <span class="skill-badge">Grafana</span>
+                <span class="skill-badge">SAP Integration</span>
+                <span class="skill-badge">Git</span>
+                <span class="skill-badge">Jira & Confluence</span>
+                <span class="skill-badge">Windows & Unix/Linux</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education & Credentials -->
+      <section id="education" class="section" style="background: rgba(13, 20, 36, 0.4);">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Background</span>
+            <h2 class="section-title" id="education-title">Education & Credentials</h2>
+            <p class="section-subtitle" id="education-subtitle">
+              Foundational technical training in aeronautical systems and e-commerce technologies.
+            </p>
+          </div>
+
+          <div class="education-container" id="education-container">
+            <div class="education-card glass-card">
+              <div class="education-top">
+                <h3 class="education-degree">E-commerce Technician Certificate</h3>
+                <span class="education-year">2004</span>
+              </div>
+              <div class="education-institution">ENAIP – Udine, Italy</div>
+              <p class="education-desc">Advanced coursework in web architectures, e-commerce transaction systems, relational databases, and enterprise networking.</p>
+            </div>
+
+            <div class="education-card glass-card">
+              <div class="education-top">
+                <h3 class="education-degree">Aeronautical Technician Diploma</h3>
+                <span class="education-year">2002</span>
+              </div>
+              <div class="education-institution">I.T.I. "A. MALIGNANI" – Udine, Italy</div>
+              <p class="education-desc">Rigorous engineering education covering aerodynamics, avionics, precision telemetry, instrumentation, and control theory.</p>
+            </div>
+
+            <div class="education-card glass-card languages-card">
+              <h3 class="education-degree">Languages</h3>
+              <div class="language-items-wrap">
+                <div class="lang-row">
+                  <strong class="lang-name">Italian</strong>
+                  <span class="lang-level">Native / Mother tongue</span>
+                </div>
+                <div class="lang-row">
+                  <strong class="lang-name">English</strong>
+                  <span class="lang-level">Professional Working Proficiency (Technical documentation, international commissioning)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact & Consultation -->
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Inquiries</span>
+            <h2 class="section-title" id="contact-title">Get in Touch</h2>
+            <p class="section-subtitle" id="contact-subtitle">
+              Open to discussions regarding Technical Leadership, Solutions Architecture, and IT/OT modernization.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Contact Info Card -->
+            <div class="contact-info-card glass-card">
+              <h3 class="contact-card-title" id="contact-card-title">Let's collaborate on mission-critical solutions</h3>
+              <p class="contact-card-text" id="contact-card-text">
+                Whether you need to architect a new MES integration, modernize legacy process control software, or lead an engineering team through complex digital transformation, feel free to reach out directly.
+              </p>
+
+              <div class="contact-meta-list">
+                <div class="contact-meta-item">
+                  <div class="contact-meta-icon">
+                    <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-meta-label" id="contact-email-label">Direct Email</div>
+                    <div class="contact-meta-value">
+                      <a href="mailto:emanuele.sabbadini@gmail.com" id="contact-email-val">emanuele.sabbadini@gmail.com</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="contact-meta-item">
+                  <div class="contact-meta-icon">
+                    <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-meta-label" id="contact-linkedin-label">LinkedIn Profile</div>
+                    <div class="contact-meta-value">
+                      <a href="https://www.linkedin.com/in/emanuele-sabbadini" target="_blank" rel="noopener noreferrer" id="contact-linkedin-val">linkedin.com/in/emanuele-sabbadini</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="contact-meta-item">
+                  <div class="contact-meta-icon">
+                    <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                  </div>
+                  <div>
+                    <div class="contact-meta-label" id="contact-location-label">Location & Mobility</div>
+                    <div class="contact-meta-value" id="contact-location-val">Udine, Italy (Available for on-site commissioning & remote/hybrid leadership)</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Action Row: Copy email & Print CV -->
+              <div class="contact-action-row">
+                <button id="copy-email-btn" class="btn-copy-email">
+                  <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10a2 2 0 00-2 2v6a2 2 0 002 2h8a2 2 0 002-2v-6a2 2 0 00-2-2z"/></svg>
+                  <span id="copy-email-btn-text">Copy Email</span>
+                </button>
+                <a href="Emanuele_Sabbadini_CV.pdf" download="Emanuele_Sabbadini_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn-copy-email" id="download-cv-btn">
+                  <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                  <span id="download-cv-btn-text">Download Official CV (PDF)</span>
+                </a>
+                <span id="copy-feedback" class="copy-feedback" aria-live="polite">Copied to clipboard!</span>
+              </div>
+            </div>
+
+            <!-- Interactive Inquiry Form -->
+            <div class="contact-form-card glass-card">
+              <form id="contact-form" action="https://formsubmit.co/emanuele.sabbadini@gmail.com" method="POST">
+                <!-- Anti-spam honeypot and configuration -->
+                <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+
+                <div class="form-group">
+                  <label for="contact-name" class="form-label" id="form-lbl-name">Your Name</label>
+                  <input type="text" id="contact-name" name="name" class="form-input" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                  <label for="contact-email-input" class="form-label" id="form-lbl-email">Your Email</label>
+                  <input type="email" id="contact-email-input" name="email" class="form-input" required placeholder="john.doe@company.com">
+                </div>
+                <div class="form-group">
+                  <label for="contact-subject" class="form-label" id="form-lbl-subject">Subject / Topic</label>
+                  <input type="text" id="contact-subject" name="_subject" class="form-input" required placeholder="MES Integration / Technical Leadership">
+                </div>
+                <div class="form-group">
+                  <label for="contact-message" class="form-label" id="form-lbl-message">Message / Project Overview</label>
+                  <textarea id="contact-message" name="message" class="form-textarea" required placeholder="Tell me about your architectural requirements, timeline, or scope..."></textarea>
+                </div>
+                <button type="submit" id="form-submit-btn" class="btn-primary" style="width: 100%;">
+                  <span id="form-submit-btn-text">Send Message</span>
+                  <svg id="form-submit-icon" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </button>
+                <div id="form-status-message" class="form-status-box" style="display: none;" role="status"></div>
+                <p class="form-note" id="form-note">Your message will be delivered directly to Emanuele.</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="footer-copy" id="footer-copyright">© 2026 Emanuele Sabbadini. Solutions Architect & Technical Lead.</div>
+          <div class="footer-privacy" id="footer-privacy">Autorizzo il trattamento dei miei dati personali ai sensi del D.Lgs. 196/2003 e del GDPR (Regolamento UE 2016/679).</div>
+        </div>
+        <div class="footer-domain" id="footer-domain">emanuelesabbadini.com</div>
       </div>
-      <!-- /Main Content -->
-    </div>
+    </footer>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/page-transition.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/validator.js"></script>
-    <script src="js/jquery.shuffle.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.hoverdir.js"></script>
-    <script src="js/main.js"></script>
+  </div>
 
-  </body>
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
 </html>

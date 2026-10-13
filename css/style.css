@@ -482,13 +482,20 @@ body {
 }
 
 .profile-avatar-box {
-  width: 140px;
-  height: 140px;
+  width: 175px;
+  height: 175px;
   margin: 0 auto 20px auto;
   border-radius: 50%;
   padding: 4px;
   background: linear-gradient(135deg, rgba(6, 182, 212, 0.5), rgba(99, 102, 241, 0.3));
   box-shadow: 0 0 30px rgba(6, 182, 212, 0.25);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  overflow: hidden;
+}
+
+.profile-avatar-box:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 0 35px rgba(6, 182, 212, 0.4);
 }
 
 .profile-avatar-img {
@@ -497,6 +504,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   background: #111827;
+  display: block;
 }
 
 .profile-card-name {
@@ -1468,6 +1476,10 @@ body {
 
 /* Extra small mobile (< 420px) */
 @media (max-width: 420px) {
+  .profile-avatar-box {
+    width: 150px;
+    height: 150px;
+  }
   .site-header .header-actions .lang-switcher {
     display: none; /* Clean & accessible inside the mobile drawer */
   }

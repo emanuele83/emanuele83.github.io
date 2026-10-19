@@ -552,7 +552,7 @@
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 9000);
 
-        const response = await fetch("https://formsubmit.co/ajax/emanuele.sabbadini@gmail.com", {
+        const response = await fetch("https://formsubmit.co/ajax/c2a3767fd180d1848c57a00513436e1a", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
